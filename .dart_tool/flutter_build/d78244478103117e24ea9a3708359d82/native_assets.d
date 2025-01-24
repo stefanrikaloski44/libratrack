@@ -1,0 +1,1 @@
+ D:\\FINKI\\misProekt\\.dart_tool\\flutter_build\\d78244478103117e24ea9a3708359d82\\native_assets.yaml: 
