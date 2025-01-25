@@ -1,30 +1,6 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
-
-class Book {
-  final String title;
-  final String author;
-  final String coverUrl;
-  final String description;
-
-  Book({
-    required this.title,
-    required this.author,
-    required this.coverUrl,
-    required this.description,
-  });
-
-  factory Book.fromJson(Map<String, dynamic> json) {
-    final volumeInfo = json['volumeInfo'];
-    return Book(
-      title: volumeInfo['title'] ?? 'Unknown Title',
-      author: (volumeInfo['authors'] as List?)?.first ?? 'Unknown Author',
-      coverUrl: volumeInfo['imageLinks']?['thumbnail']?.replaceFirst('http:', 'https:') ??
-          'https://via.placeholder.com/400x600?text=No+Cover',
-      description: volumeInfo['description'] ?? 'No description available',
-    );
-  }
-}
+import '../models/book_model.dart';
 
 class ApiService {
   static const String baseUrl = 'https://www.googleapis.com/books/v1';
@@ -46,7 +22,7 @@ class ApiService {
   Future<List<Book>> getBooksByGenre(String genre) async {
     try {
       final response = await http.get(
-        Uri.parse('$baseUrl/volumes?q=subject:"$genre"&maxResults=30&orderBy=relevance'),
+        Uri.parse('$baseUrl/volumes?q=subject:"$genre"&maxResults=20&orderBy=relevance'),
       );
 
       if (response.statusCode == 200) {

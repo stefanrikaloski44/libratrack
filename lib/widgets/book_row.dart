@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../models/book_model.dart';
 import '../services/api_service.dart';
 
 class BookRow extends StatefulWidget {
@@ -55,6 +56,7 @@ class _BookRowState extends State<BookRow> {
             child: Text(
               widget.genre,
               style: const TextStyle(
+                fontFamily: 'LexendGiga',
                 fontSize: 20,
                 fontWeight: FontWeight.bold,
                 color: Colors.black,
@@ -67,7 +69,15 @@ class _BookRowState extends State<BookRow> {
           child: _isLoading
               ? const Center(child: CircularProgressIndicator())
               : _books == null || _books!.isEmpty
-              ? const Center(child: Text('No books found', style: TextStyle(color: Colors.black)))
+              ? const Center(
+            child: Text(
+              'No books found',
+              style: TextStyle(
+                fontFamily: 'LexendGiga',
+                color: Colors.black,
+              ),
+            ),
+          )
               : ListView.builder(
             scrollDirection: Axis.horizontal,
             itemCount: _books!.length,

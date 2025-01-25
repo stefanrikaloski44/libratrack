@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../models/book_model.dart';
 import '../services/api_service.dart';
 
 class GenreBooksScreen extends StatefulWidget {
@@ -43,6 +44,7 @@ class _GenreBooksScreenState extends State<GenreBooksScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Color.fromARGB(255, 255, 234, 217),
         title: Text(ModalRoute.of(context)?.settings.arguments as String? ?? 'Genre Books'),
       ),
       body: _isLoading

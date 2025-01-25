@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../models/book_model.dart';
 import '../services/api_service.dart';
 
 class SearchScreen extends StatefulWidget {
@@ -41,6 +42,7 @@ class _SearchScreenState extends State<SearchScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Color.fromARGB(255, 255, 234, 217),
         title: TextField(
           controller: _searchController,
           decoration: const InputDecoration(

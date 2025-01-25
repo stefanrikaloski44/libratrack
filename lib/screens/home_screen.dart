@@ -8,9 +8,23 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
+
       appBar: AppBar(
-        title: const Text('LibraTrack'),
+        backgroundColor: Color.fromARGB(255, 255, 234, 217),
+
+        flexibleSpace: Center(
+          child: Padding(
+            padding: const EdgeInsets.only(top: 30.0),
+            child: SizedBox(
+              width: 300,
+              height: 300,
+              child: Image.network(
+                'https://i.ibb.co/L8V2kvs/LIBRATRACK-with-background.png',
+                fit: BoxFit.cover,
+              ),
+            ),
+          ),
+        ),
         actions: [
           IconButton(
             icon: const Icon(Icons.search),

@@ -4,7 +4,7 @@
             "outputFile": "finki.ukim.mk.misproekt.app-mergeDebugResources-24:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "D:\\FINKI\\misProekt\\android\\app\\src\\main\\res\\values-night\\styles.xml",
+                    "source": "D:\\FINKI\\misProekt\\libratrack\\android\\app\\src\\main\\res\\values-night\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",

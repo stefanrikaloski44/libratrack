@@ -18,10 +18,10 @@ finki.ukim.mk.misproekt.app-lifecycle-livedata-core-2.7.0-16 C:\Users\ACER\.grad
 finki.ukim.mk.misproekt.app-jetified-activity-1.8.1-17 C:\Users\ACER\.gradle\caches\transforms-3\aecaa94fd3010ebbc81c2fe40f782abe\transformed\jetified-activity-1.8.1\res
 finki.ukim.mk.misproekt.app-lifecycle-livedata-2.7.0-18 C:\Users\ACER\.gradle\caches\transforms-3\c11b0fd8d42c1350d7f4e72974d231fa\transformed\lifecycle-livedata-2.7.0\res
 finki.ukim.mk.misproekt.app-lifecycle-runtime-2.7.0-19 C:\Users\ACER\.gradle\caches\transforms-3\c3e60d8edb6a86f432de0791fcaa87bd\transformed\lifecycle-runtime-2.7.0\res
-finki.ukim.mk.misproekt.app-debug-20 D:\FINKI\misProekt\android\app\src\debug\res
-finki.ukim.mk.misproekt.app-main-21 D:\FINKI\misProekt\android\app\src\main\res
-finki.ukim.mk.misproekt.app-pngs-22 D:\FINKI\misProekt\build\app\generated\res\pngs\debug
-finki.ukim.mk.misproekt.app-resValues-23 D:\FINKI\misProekt\build\app\generated\res\resValues\debug
-finki.ukim.mk.misproekt.app-packageDebugResources-24 D:\FINKI\misProekt\build\app\intermediates\incremental\debug\packageDebugResources\merged.dir
-finki.ukim.mk.misproekt.app-packageDebugResources-25 D:\FINKI\misProekt\build\app\intermediates\incremental\debug\packageDebugResources\stripped.dir
-finki.ukim.mk.misproekt.app-merged_res-26 D:\FINKI\misProekt\build\app\intermediates\merged_res\debug
+finki.ukim.mk.misproekt.app-debug-20 D:\FINKI\misProekt\libratrack\android\app\src\debug\res
+finki.ukim.mk.misproekt.app-main-21 D:\FINKI\misProekt\libratrack\android\app\src\main\res
+finki.ukim.mk.misproekt.app-pngs-22 D:\FINKI\misProekt\libratrack\build\app\generated\res\pngs\debug
+finki.ukim.mk.misproekt.app-resValues-23 D:\FINKI\misProekt\libratrack\build\app\generated\res\resValues\debug
+finki.ukim.mk.misproekt.app-packageDebugResources-24 D:\FINKI\misProekt\libratrack\build\app\intermediates\incremental\debug\packageDebugResources\merged.dir
+finki.ukim.mk.misproekt.app-packageDebugResources-25 D:\FINKI\misProekt\libratrack\build\app\intermediates\incremental\debug\packageDebugResources\stripped.dir
+finki.ukim.mk.misproekt.app-merged_res-26 D:\FINKI\misProekt\libratrack\build\app\intermediates\merged_res\debug

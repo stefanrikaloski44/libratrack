@@ -590,7 +590,7 @@
             "outputFile": "finki.ukim.mk.misproekt.app-merged_res-26:/values-night-v8_values-night-v8.arsc.flat",
             "map": [
                 {
-                    "source": "D:\\FINKI\\misProekt\\android\\app\\src\\main\\res\\values-night\\styles.xml",
+                    "source": "D:\\FINKI\\misProekt\\libratrack\\android\\app\\src\\main\\res\\values-night\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
@@ -1288,7 +1288,24 @@
                     }
                 },
                 {
-                    "source": "D:\\FINKI\\misProekt\\android\\app\\src\\main\\res\\values\\styles.xml",
+                    "source": "C:\\Users\\ACER\\.gradle\\caches\\transforms-3\\c3e60d8edb6a86f432de0791fcaa87bd\\transformed\\lifecycle-runtime-2.7.0\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "42",
+                        "endOffsets": "93"
+                    },
+                    "to": {
+                        "startLines": "140",
+                        "startColumns": "4",
+                        "startOffsets": "6888",
+                        "endColumns": "42",
+                        "endOffsets": "6926"
+                    }
+                },
+                {
+                    "source": "D:\\FINKI\\misProekt\\libratrack\\android\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
@@ -1304,23 +1321,6 @@
                         "endLines": "158,161",
                         "endColumns": "12,12",
                         "endOffsets": "8070,8239"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\ACER\\.gradle\\caches\\transforms-3\\c3e60d8edb6a86f432de0791fcaa87bd\\transformed\\lifecycle-runtime-2.7.0\\res\\values\\values.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "42",
-                        "endOffsets": "93"
-                    },
-                    "to": {
-                        "startLines": "140",
-                        "startColumns": "4",
-                        "startOffsets": "6888",
-                        "endColumns": "42",
-                        "endOffsets": "6926"
                     }
                 },
                 {
